@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#f5f5f5;
+
+    color:#222;
+
+}
+
+header{
+
+    text-align:center;
+
+    padding:50px 20px;
+
+}
+
+.galeria{
+
+    width:95%;
+
+    margin:40px auto;
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:25px;
+
+    justify-content:flex-start;
+
+}
+
+.revista{
+    width:120px;
+    flex:0 0 120px;
+    text-decoration:none;
+    color:rgb(33, 33, 33);
+}
+
+.revista img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:8px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+.revista img:hover{
+
+    transform:scale(1.05);
+
+}
+
+.datos{
+
+    margin-top:8px;
+
+    text-align:left;
+
+}
+
+.datos h3{
+
+    font-size:14px;
+
+}
+
+.datos p{
+
+    font-size:12px;
+
+    color:#666;
+
+}

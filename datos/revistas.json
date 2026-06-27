@@ -1,0 +1,18 @@
+[
+  {
+    "numero": 1,
+    "titulo": "Revista escolar",
+    "fecha": "Abril 1983",
+    "anio": 1983,
+    "portada": "imagenes/N01_04-1983.jpg",
+    "pdf": "revistas/N01_04-1983.pdf"
+  },
+  {
+    "numero": 2,
+    "titulo": "Revista escolar",
+    "fecha": "Mayo 1983",
+    "anio": 1983,
+    "portada": "imagenes/N02_05-1983.jpg",
+    "pdf": "revistas/N02_05-1983.pdf"
+  }
+]
