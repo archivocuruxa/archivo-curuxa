@@ -4,26 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Archivo Curuxa</title>
+    <title>Archivo Curuxa | Hemeroteca digital de la revista escolar de Corullón</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
     <header>
+        <img src="imagenes/cabecera3.svg" alt="Archivo Curuxa" class="cabecera3">
+        <h1 class="oculto">Archivo Curuxa - Hemeroteca digital</h1>
+    </header>
 
-    <img src="imagenes/cabecera.svg" alt="Archivo Curuxa" class="cabecera">
-
-</header>
+    <section class="buscador">
+        <input type="text" id="busqueda" placeholder="Buscar por número, mes o año...">
+    </section>
 
     <main>
 
         <section class="galeria">
 
             <!-- Revista 1 -->
-            <a href="revistas/N01_04-1983.pdf" class="revista" target="_blank">
+            <a href="revistas/N01_04-1983.pdf" class="revista" target="_blank" rel=noopener data-numero="1"
+                data-mes="abril" data-anio="1983">
 
-                <img src="imagenes/N01_04-1983.jpg" alt="Nº 1">
+                <div class="portada">
+                    <img src="imagenes/N01_04-1983.jpg" alt="Nº 1">
+                </div>
 
                 <div class="datos">
                     <h3>Nº 1</h3>
@@ -33,9 +39,12 @@
             </a>
 
             <!-- Revista 2 -->
-            <a href="revistas/N02_05-1983.pdf" class="revista" target="_blank">
+            <a href="revistas/N02_05-1983.pdf" class="revista" target="_blank" rel=noopener data-numero="2"
+                data-mes="mayo" data-anio="1983">
 
-                <img src="imagenes/N02_05-1983.jpg" alt="Nº 2">
+                <div class="portada">
+                    <img src="imagenes/N02_05-1983.jpg" alt="Nº 2">
+                </div>
 
                 <div class="datos">
                     <h3>Nº 2</h3>
@@ -45,9 +54,12 @@
             </a>
 
             <!-- Revista 3 -->
-            <a href="revistas/N03_05-1983.pdf" class="revista" target="_blank">
+            <a href="revistas/N03_05-1983.pdf" class="revista" target="_blank" rel=noopener data-numero="3"
+                data-mes="mayo" data-anio="1983">
 
-                <img src="imagenes/N03_05-1983.jpg" alt="Nº 3">
+                <div class="portada">
+                    <img src="imagenes/N03_05-1983.jpg" alt="Nº 3">
+                </div>
 
                 <div class="datos">
                     <h3>Nº 3</h3>
@@ -56,10 +68,13 @@
 
             </a>
 
-            <!-- Revista 5 Especial Vacaciones-->
-            <a href="revistas/N05_EspecialVacaciones-1983.pdf" class="revista" target="_blank">
+            <!-- Revista 5 -->
+            <a href="revistas/N05_EspecialVacaciones-1983.pdf" class="revista" target="_blank" rel=noopener
+                data-numero="5" data-mes="vacaciones" data-anio="1983">
 
-                <img src="imagenes/N05_EspecialVacaciones-1983.jpg" alt="Nº 5">
+                <div class="portada">
+                    <img src="imagenes/N05_EspecialVacaciones-1983.jpg" alt="Nº 5">
+                </div>
 
                 <div class="datos">
                     <h3>Nº 5</h3>
@@ -69,9 +84,12 @@
             </a>
 
             <!-- Revista 6 -->
-            <a href="revistas/N06_09-1983.pdf" class="revista" target="_blank">
+            <a href="revistas/N06_09-1983.pdf" class="revista" target="_blank" rel=noopener data-numero="6"
+                data-mes="septiembre" data-anio="1983">
 
-                <img src="imagenes/N06_09-1983.jpg" alt="Nº 6">
+                <div class="portada">
+                    <img src="imagenes/N06_09-1983.jpg" alt="Nº 6">
+                </div>
 
                 <div class="datos">
                     <h3>Nº 6</h3>
@@ -80,10 +98,13 @@
 
             </a>
 
-            <!-- Revista X Demgrafia Corullon-->
-            <a href="revistas/NXX_DemografíaCorullón_12-1983.pdf" class="revista" target="_blank">
+            <!-- Demografía -->
+            <a href="revistas/NXX_DemografiaCorullon_12-1983.pdf" class="revista" target="_blank" rel=noopener
+                data-numero="" data-mes="diciembre" data-anio="1983">
 
-                <img src="imagenes/NXX_DemografíaCorullón_12-1983.jpg" alt="Nº XX">
+                <div class="portada">
+                    <img src="imagenes/NXX_DemografiaCorullon_12-1983.jpg" alt="Demografía de Corullón">
+                </div>
 
                 <div class="datos">
                     <h3>Demografía de Corullón</h3>
@@ -93,9 +114,12 @@
             </a>
 
             <!-- Revista 26 -->
-            <a href="revistas/N26_10-1985.pdf" class="revista" target="_blank">
+            <a href="revistas/N26_10-1985.pdf" class="revista" target="_blank" rel=noopener data-numero="26"
+                data-mes="octubre" data-anio="1985">
 
-                <img src="imagenes/N26_10-1985.jpg" alt="Nº 26">
+                <div class="portada">
+                    <img src="imagenes/N26_10-1985.jpg" alt="Nº 26">
+                </div>
 
                 <div class="datos">
                     <h3>Nº 26</h3>
@@ -105,9 +129,12 @@
             </a>
 
             <!-- Revista 66 -->
-            <a href="revistas/N66_04-2009.pdf" class="revista" target="_blank">
+            <a href="revistas/N66_04-2009.pdf" class="revista" target="_blank" rel=noopener data-numero="66"
+                data-mes="abril" data-anio="2009">
 
-                <img src="imagenes/N66_04-2009.jpg" alt="Nº 66">
+                <div class="portada">
+                    <img src="imagenes/N66_04-2009.jpg" alt="Nº 66">
+                </div>
 
                 <div class="datos">
                     <h3>Nº 66</h3>
@@ -117,9 +144,12 @@
             </a>
 
             <!-- Revista 67 -->
-            <a href="revistas/N67_12-2009.pdf" class="revista" target="_blank">
+            <a href="revistas/N67_12-2009.pdf" class="revista" target="_blank" rel=noopener data-numero="67"
+                data-mes="diciembre" data-anio="2009">
 
-                <img src="imagenes/N67_12-2009.jpg" alt="Nº 67">
+                <div class="portada">
+                    <img src="imagenes/N67_12-2009.jpg" alt="Nº 67">
+                </div>
 
                 <div class="datos">
                     <h3>Nº 67</h3>
@@ -128,10 +158,11 @@
 
             </a>
 
-
         </section>
 
     </main>
+
+    <script src="js/script.js"></script>
 
 </body>
 

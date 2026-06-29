@@ -1,14 +1,45 @@
-console.log("Archivo Curuxa iniciado");
-const contenedor = document.getElementById("revistas");
+document.addEventListener("DOMContentLoaded", () => {
+    const input = document.getElementById("busqueda");
+    const revistas = document.querySelectorAll(".revista");
 
-contenedor.innerHTML = `
-<div class="tarjeta">
+    // Crear mensaje de "no hay resultados"
+    const mensaje = document.createElement("p");
+    mensaje.textContent = "Sin resultados";
+    mensaje.classList.add("no-resultados");
+    mensaje.style.display = "none";
 
-    <img src="imagenes/N01_04-1983.jpg">
+    const galeria = document.querySelector(".galeria");
+    galeria.appendChild(mensaje);
 
-    <h2>Nº 1</h2>
+    input.addEventListener("input", () => {
+        const texto = input.value.toLowerCase().trim();
 
-    <p>Abril 1983</p>
+        let encontrados = 0;
 
-</div>
-`;
+        revistas.forEach(revista => {
+            const numero = (revista.dataset.numero || "").toLowerCase();
+            const mes = (revista.dataset.mes || "").toLowerCase();
+            const anio = (revista.dataset.anio || "").toLowerCase();
+
+            const titulo = revista.querySelector("h3").textContent.toLowerCase();
+            const descripcion = revista.querySelector("p").textContent.toLowerCase();
+
+            const coincide =
+                numero.includes(texto) ||
+                mes.includes(texto) ||
+                anio.includes(texto) ||
+                titulo.includes(texto) ||
+                descripcion.includes(texto);
+
+            if (coincide) {
+                revista.style.display = "";
+                encontrados++;
+            } else {
+                revista.style.display = "none";
+            }
+        });
+
+        // Mostrar u ocultar mensaje
+        mensaje.style.display = encontrados === 0 ? "block" : "none";
+    });
+});
