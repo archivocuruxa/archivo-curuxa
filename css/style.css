@@ -232,7 +232,7 @@ main {
     :root {
         --ancho-revista: 130px;
         --alto-portada: 190px;
-        --separacion: 25px;
+        --separacion: 35px;
     }
 
     header {
