@@ -43,3 +43,31 @@ document.addEventListener("DOMContentLoaded", () => {
         mensaje.style.display = encontrados === 0 ? "block" : "none";
     });
 });
+
+/* ========================================
+   PROGRESO DE LA HEMEROTECA
+======================================== */
+
+const totalPublicaciones = 67;
+
+const publicacionesDigitalizadas =
+    document.querySelectorAll(".revista").length;
+
+const porcentaje =
+    (publicacionesDigitalizadas / totalPublicaciones) * 100;
+
+const porcentajeRedondeado =
+    porcentaje.toFixed(1);
+
+document.getElementById("progreso-texto").textContent =
+    `${publicacionesDigitalizadas} de ${totalPublicaciones} revistas digitalizadas`;
+
+document.getElementById("progreso-porcentaje").textContent =
+    `${porcentajeRedondeado}%`;
+
+setTimeout(() => {
+
+    document.getElementById("progreso-relleno").style.width =
+        `${porcentaje}%`;
+
+}, 100);
