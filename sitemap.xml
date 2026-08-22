@@ -2,12 +2,129 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+    <!-- Página principal -->
     <url>
-
         <loc>https://archivocuruxa.github.io/archivo-curuxa/</loc>
+    </url>
 
-        <priority>1.0</priority>
+    <!-- Corullón, un pueblo con historia -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/Historia_12-1982.pdf</loc>
+    </url>
 
+    <!-- Revista 1 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N01_04-1983.pdf</loc>
+    </url>
+
+    <!-- Revista 2 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N02_05-1983.pdf</loc>
+    </url>
+
+    <!-- Revista 3 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N03_05-1983.pdf</loc>
+    </url>
+
+    <!-- Revista 4 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N04_06-1983.pdf</loc>
+    </url>
+
+    <!-- Revista 5 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N05_EspecialVacaciones-1983.pdf</loc>
+    </url>
+
+    <!-- Revista 6 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N06_09-1983.pdf</loc>
+    </url>
+
+    <!-- Revista 9 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N09_12-1983.pdf</loc>
+    </url>
+
+    <!-- Demografía de Corullón -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/NXX_DemografiaCorullon_12-1983.pdf</loc>
+    </url>
+
+    <!-- Curuxa Infantil -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/Infantil_12-1983.pdf</loc>
+    </url>
+
+    <!-- Revista 11 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N11_02-1984.pdf</loc>
+    </url>
+
+    <!-- Revista 12 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N12_03-1984.pdf</loc>
+    </url>
+
+    <!-- Revista 14 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N14_05-1984.pdf</loc>
+    </url>
+
+    <!-- Revista 17 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N17_10-1984.pdf</loc>
+    </url>
+
+    <!-- Revista 18 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N18_11-1984.pdf</loc>
+    </url>
+
+    <!-- Revista 19 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N19_12-1984.pdf</loc>
+    </url>
+
+    <!-- Revista 21 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N21_02-1985.pdf</loc>
+    </url>
+
+    <!-- Revista 22 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N22_04-1985.pdf</loc>
+    </url>
+
+    <!-- Revista 23 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N23_04-1985.pdf</loc>
+    </url>
+
+    <!-- Revista 24 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N24_05-1985.pdf</loc>
+    </url>
+
+    <!-- Revista 26 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N26_10-1985.pdf</loc>
+    </url>
+
+    <!-- Revista 27 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N27_11-1985.pdf</loc>
+    </url>
+
+    <!-- Revista 66 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N66_04-2009.pdf</loc>
+    </url>
+
+    <!-- Revista 67 -->
+    <url>
+        <loc>https://archivocuruxa.github.io/archivo-curuxa/revistas/N67_12-2009.pdf</loc>
     </url>
 
 </urlset>
