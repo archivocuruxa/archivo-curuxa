@@ -380,7 +380,7 @@ main {
 
     width: 90%;
     max-width: 800px;
-    margin: 35px auto 0;
+    margin: 15px auto 80px;
 
     text-align: center;
 
@@ -398,9 +398,5 @@ main {
     font-size: 15px;
     line-height: 1.6;
     color: var(--color-secundario);
-    width: 90%;
-    max-width: 800px;
-    margin: 15px auto 80px;
-    text-align: center;
 
 }
