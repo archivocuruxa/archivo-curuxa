@@ -1,5 +1,5 @@
-User-agent: *
 
+User-agent: *
 Allow: /
 
-Sitemap: https://archivocuruxa.github.io/archivo-curuxa/
+Sitemap: https://archivocuruxa.github.io/archivo-curuxa/sitemap.xml
