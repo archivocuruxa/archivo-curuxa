@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
    PROGRESO DE LA HEMEROTECA
 ======================================== */
 
-const totalPublicaciones = 67;
+const totalPublicaciones = 71;
 
 const publicacionesDigitalizadas =
     document.querySelectorAll(".revista").length;
